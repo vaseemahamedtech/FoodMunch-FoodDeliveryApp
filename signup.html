@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <title>FoodMunch | Sign Up</title>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link rel="stylesheet" href="css/styles.css">
+        <link href='https://fonts.googleapis.com/css?family=MonteCarlo' rel='stylesheet'>
+    </head>
+    <body class="form-body">
+        <h1 class="form-page-heading"><a href="index.html">FoodMunch</a></h1>
+        <p class="form-caption">"Swipe, Bite, Repeat"</p>
+        <form method="POST" class="detail-form">
+            <h2 class="form-heading">Sign Up</h2>
+            <div class="form-element">
+                <label class="form-label" for="username">UserName</label>
+                <input class="form-input" id="username" name="username" type="text" placeholder="Enter your UserName" required>
+            </div>
+            <div class="form-element">
+                <label class="form-label" for="email">Email</label>
+                <input class="form-input" id="email" name="email" type="email" placeholder="Enter your email" required>
+            </div>
+            <div class="form-element">
+                <label class="form-label" for="phone">Phone Number</label>
+                <input class="form-input" id="phone" name="phone" type="tel" placeholder="Enter your phone number" required>
+            </div>
+            <div class="form-element">
+                <label class="form-label" for="password">Password</label>
+                <input class="form-input" id="password"  name="password" type="password" placeholder="Enter your password" required>
+            </div>
+            <input class="form-submit" id="submit" type="submit" value="Sign Up">
+            <div class="signup-link">
+                <p>Already have an account?</p><a href="login.html">Login</a>
+            </div>
+        </form>
+        
+        <footer>
+            <p>&copy; 2025 FoodMunch</p>
+        </footer>
+        <script src="javascript/signup.js" defer></script>
+    </body>
+</html>
