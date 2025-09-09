@@ -1,6 +1,6 @@
-Aatheka Abdul Kadar | FoodKart - Food Delivery Web Application
+ FoodMunch - Food Delivery Web Application
 
-FoodKart is a responsive, feature-rich food delivery web application built using HTML, CSS, and JavaScript. It offers users a seamless experience to browse categories, view menus, add items to cart, and simulate checkout with order confirmation.
+FoodMunch is a responsive, feature-rich food delivery web application built using HTML, CSS, and JavaScript. It offers users a seamless experience to browse categories, view menus, add items to cart, and simulate checkout with order confirmation.
 
 Features
 
